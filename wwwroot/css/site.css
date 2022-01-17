@@ -65,21 +65,13 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 .Title{
-  outline: 1px solid green;
 }
-.Wrapper{
-  width: 1350px;
-  height:1000px;
-  outline: 2px solid blue;
-  background-color:cornsilk;
-  overflow: hidden;
-}
-.Main-box{
-  outline:1px solid red;
+
+.content-box{
   margin: 0 auto;
-  width:50%;
+  width:75%;
   height:400px;
 }
 img{
-  width: 25%;
+  width: 100%;
 }
