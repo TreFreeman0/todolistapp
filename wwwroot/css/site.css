@@ -68,10 +68,44 @@ body {
 }
 
 .content-box{
-  margin: 0 auto;
-  width:75%;
   height:400px;
 }
 img{
   width: 100%;
 }
+.container{
+  outline:1px solid red;
+  overflow: hidden;
+  
+}
+
+.left{
+  width:100px;
+  height:600px;
+  float:left;
+  width:25%;
+  background-color:#F3F5F9 ;
+  font-size:20px;
+}
+.left ul{
+  list-style-type: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+.left li{
+  margin-bottom: 20px;
+}
+.left a{
+  color: black;
+  
+}
+.left a:hover{
+  color:#006BFF;
+}
+.middle{
+  width:100px;
+  outline:1px solid green;
+  float:left;
+  width:75%;
+}
+
