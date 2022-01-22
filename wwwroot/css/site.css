@@ -14,7 +14,7 @@ a.navbar-brand {
   color:white;
 }
 .navbar a:hover{
-
+  color:#918f90;
 }
 
 /* Sticky footer styles
@@ -71,6 +71,8 @@ body {
   /* Set the fixed height of the footer here */
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
+  color:white;
+  background-color: #24292f;
 }
 .Title{
 }
@@ -146,11 +148,25 @@ img{
 .table tr:nth-child(even){
   background-color:#F3F5F9 ;
 }
+.table i{
+  color:#24292F
+}
 .right-aside{
   width: 25%;
-  height: 200px;
-  outline:1px solid hotpink;
+  /* outline:1px solid hotpink; */
   margin-left:20px;
   float:left;
+}
+.right-aside >div{
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+  border-right:1px solid #ccc ;
+  text-align: center;
+}
+.right-aside i{
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
+  color:#24292F;
 }
 

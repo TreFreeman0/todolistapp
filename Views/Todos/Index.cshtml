@@ -8,9 +8,7 @@
 <br/>
 <h5 style="text-align: center;">Jot down Ideas, comments or things you are working on to stay organized.</h5>
 
-<!-- <p>
-    <a class=create-button asp-action="Create">Create New</a>
-</p> -->
+
 <table class="table">
     <thead>
         <tr>
@@ -34,9 +32,9 @@
                 @Html.DisplayFor(modelItem => item.CreatedDate)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a>|
-                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.ID"><i class="fas fa-pen"></i>Edit</a>|
+                <a asp-action="Details" asp-route-id="@item.ID"><i class="fas fa-info"></i>Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID"><i class="fas fa-trash"></i>Delete</a>
             </td>
             <td></td>
         </tr>
@@ -44,8 +42,22 @@
     </tbody>
 </table>
 <div class=right-aside>
-<h2>About us</h2>
-<p>Want to learn more about us <a href="#">click here.</a>
+    <div class="right-aside-content">
+        <h3>About us</h3>
+        <p>Want to learn more about us <a href="#">click here.</a>
+    </div>
+    <div class="right-aside-content">
+        <h3>Keep up with updates</h3>
+        <p>Want to know about any future updates?</p>
+        <p>Dont worry we got you covered. Make sure to follow us on social media for any upcoming updates or news.</p>
+    </div>
+    <div class="right-aside-content">
+        <h3>Where can you find us</h3>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram-square"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
 </div>
 <!--<script src="/js/elastic-apm-rum.umd.min.js" crossorigin></script>
 <script>
