@@ -6,6 +6,16 @@ a.navbar-brand {
   text-align: center;
   word-break: break-all;
 }
+.navbar{
+  background-color: #24292F;
+  color:white
+}
+.navbar a{
+  color:white;
+}
+.navbar a:hover{
+
+}
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -46,14 +56,12 @@ body {
   margin-bottom: 60px;
 }
 .description {
-    color: red;
-    font-size: 20px;
-    text-align: center;
+    color: black;
+    font-size: 15px;
 }
 .createddate{
-  color:red;
-  font-size: 20px;
-  text-align: center;
+  color:black;
+  font-size: 15px;
 }
 .footer {
   position: absolute;
@@ -73,10 +81,27 @@ body {
 img{
   width: 100%;
 }
-.container{
-  outline:1px solid red;
+.create-button{
+  color:white;
+  background-color:#2DA44E;
+  border-radius:3px;
+  padding: 5px;
+  margin: 5px;
+}
+.create-button:hover{
+  color: white;
+
+}
+.main-container{
+  max-width: 1400px;
+  margin:0 auto;
+  padding: 10px;
+  outline:1px solid green;
   overflow: hidden;
-  
+}
+.container{
+  overflow: hidden;
+  outline:1px red solid;
 }
 
 .left{
@@ -107,5 +132,25 @@ img{
   outline:1px solid green;
   float:left;
   width:75%;
+}
+.table{
+  /* Revist */
+  outline:1px #ccc solid;  
+  border-radius:5px;
+  float: left;
+  width: 70%;
+}
+.table th{
+  background-color:#F3F5F9;
+}
+.table tr:nth-child(even){
+  background-color:#F3F5F9 ;
+}
+.right-aside{
+  width: 25%;
+  height: 200px;
+  outline:1px solid hotpink;
+  margin-left:20px;
+  float:left;
 }
 
